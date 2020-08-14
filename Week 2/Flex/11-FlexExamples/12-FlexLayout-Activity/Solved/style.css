@@ -1,0 +1,94 @@
+/**
+ * Flex Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #333;
+  background: #FFA500;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #FFA500;
+}
+
+.container {
+  display: flex;
+
+}
+
+.align-center {
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+#left {
+  width: 33.3%;
+  color: #fff;
+  background: #30948D;
+}
+
+#middle {
+  width: 33.3%;
+  color: #fff;
+  background: #9E1212;
+}
+
+#right {
+  width: 33.3%;
+  color: #fff;
+  background: #30948D;
+}
+
+#full {
+  width: 100%;
+  color: #fff;
+  background: #394549;
+}
+
+#division {
+  padding: 20px;
+  margin-top: 20px;
+  background: #214fb3;
+  height: 35%;
+  width: 100%
+}
+
+aside {
+  width: 600px;
+  height: 200px;
+  padding: 20px;
+  margin-left: 30px;
+  background: #a6b747;
+  border: 1px solid #eee;
+}
+
+footer {
+  padding: 20px;
+  width: 100%;
+  background: #FFA500;
+}

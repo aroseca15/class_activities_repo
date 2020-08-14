@@ -1,0 +1,208 @@
+/* Basic Parts for our boxes and text */
+.flex-container {
+    display: flex;
+}
+
+.area-text {
+    text-align: center;
+    font-family: monospace;
+}
+
+.centered-big-text {
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;    
+}
+
+.box {
+    border-radius: 3px;
+    background-color: #A2CBFA;
+    border: 1px solid #4390E1;
+    box-sizing: border-box;
+    height: 100px;
+    background-color: aqua;
+    margin: 1%;
+}
+
+/* Part One - Direction */
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Part Two - Wrap */
+.flex-container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Part Three: Justify  */
+.flex-container-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-justify-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-container-justify-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-container-justify-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container-justify-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Part 4: Align Items */
+.flex-container-align-center {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: grey;
+}
+
+.flex-container-align-start {
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    background-color: grey;
+}
+
+.flex-container-align-end {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    background-color: grey;
+}
+
+.flex-container-align-stretch {
+    display: flex;
+    align-items: stretch;
+    height: 200px;
+    background-color: grey;
+}
+
+.flex-container-align-baseline {
+    display: flex;
+    align-items: baseline;
+    height: 200px;
+    background-color: grey;
+}
+
+/* Part 5 - Align Content */
+.flex-container-content-space-around {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background-color: grey;
+}
+
+.flex-container-content-stretch {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    background-color: grey;
+}
+
+.flex-container-content-center {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: grey;
+}
+
+.flex-container-content-flex-start {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-color: grey;
+}
+
+.flex-container-content-flex-end {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    background-color: grey;
+}
+
+
+/* Perfect Centering  */
+.flex-container-perfect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: aqua;
+}
+
+.flex-container-perfect>div {
+    background-color: #f1f1f1;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container-content-space-between {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: grey;
+}
+
+/* Examples */
+.stretch-fill {
+    flex-grow: 1;
+}
+
+.stretch-more {
+    flex-grow: 2;
+}
+
+.stretch-most {
+    flex-grow: 5;
+}
+
+.set-width {
+    width: 100px;
+}
+
+.stretch-box {
+    border-radius: 3px;
+    background-color: #A2CBFA;
+    border: 1px solid #4390E1;
+    box-sizing: border-box;
+    background-color: aqua;
+    margin: 1%;
+}
