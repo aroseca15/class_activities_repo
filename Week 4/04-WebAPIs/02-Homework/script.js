@@ -5,7 +5,7 @@ const questions = [
     {
         question: "What is Javascript?", 
         choices: ["Programing Language", "Coffee Shop", "Name of Play", "Story Book"],
-        answers: "Programing Language" 
+        answer: "Programing Language" 
     }, {}, {}, {}, {}, {}, {}
 ]; 
 const timerEL = document.getElementById("time");
