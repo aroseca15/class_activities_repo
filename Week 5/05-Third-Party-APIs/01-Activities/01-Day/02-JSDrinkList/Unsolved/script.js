@@ -13,7 +13,27 @@ let drinkList = [
 
   // 1. Create code that "grabs" the div with the matching id (#drink-options);
   // ...
+let drinkListDiv = document.getElementById('drink-options');
 
+// for (let i = 0; i < drinkList.length; i++) {
+  
+//   let newDrinkList = document.createElement('p');
+
+//   newDrinkList.textContent = drinkList[i];
+  
+//  drinkListDiv.appendChild(newDrinkList);
+  
+  
+// }
+drinkList.forEach(function(addDrinkList){
+
+  let newDrinkList = document.createElement('p');
+
+  // For below you set '=' to the function name.
+  newDrinkList.textContent = addDrinkList;
+
+  drinkListDiv.appendChild(newDrinkList);
+})
 
   // ...
 
