@@ -1,9 +1,10 @@
 const fs = require("fs");
-const UserSearch = require("UserSearch.js");
+const UserSearch = require("./UserSearch.js");
 const moment = require("moment");
 
 const WeatherAdmin = function() {
   this.getData = () => {
+    
     fs.readFile("log.txt", "utf8", (data, error) => {
       console.log(data);
     });
