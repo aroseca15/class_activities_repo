@@ -13,4 +13,4 @@
 * Then try:
     * Creating a new HTML file
     * Add a route to that file.
-    * Navigate to the new route in your browser.
+    * Navigate to the new route in your browser

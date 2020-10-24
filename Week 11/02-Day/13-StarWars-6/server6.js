@@ -1,4 +1,4 @@
-// Dependencies
+/// Dependencies
 // =============================================================
 var express = require("express");
 var path = require("path");
@@ -45,6 +45,11 @@ var characters = [
 app.get("/", function(req, res) {
   // res.send("Welcome to the Star Wars Page!")
   res.sendFile(path.join(__dirname, "view.html"));
+});
+
+app.get("/index", function(req, res) {
+  // res.send("Welcome to the Star Wars Page!")
+  res.sendFile(path.join(__dirname, "index.html"));
 });
 
 // Displays all characters
